@@ -5,12 +5,11 @@
   .auto-style2 {
     margin-left: auto;
   }
-.cards{
+div.cards{
     text-align: center;
     font-family: arial;
     margin-top: 100px;
-
-
+position: relative;
 }
 .all-cards {
     display: grid;
@@ -19,7 +18,6 @@
     grid-gap: 16px;
     text-align: center;
     margin-left: 60px !important;
-    overflow: scroll;
 
 }
 
