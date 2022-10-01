@@ -1,0 +1,48 @@
+.auto-style1 {
+    font-size: xx-large;
+  
+  }
+  .auto-style2 {
+    margin-left: auto;
+  }
+.cards{
+    text-align: center;
+    font-family: arial;
+    margin-top: 100px;
+
+
+}
+.all-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 16px;
+    grid-gap: 16px;
+    text-align: center;
+    margin-left: 60px !important;
+    overflow: scroll;
+
+}
+
+.card {
+width: 310px;
+height: 250px;
+background: white;
+border-radius: 10px;
+}
+.img-card{
+    width: 290px;
+    height: 170px;
+    border-radius: 10px;
+}
+body{
+    background: rgba(194, 191, 191, 0.596);
+
+}
+.menuBar{
+    top: 0cm;
+    left: 0cm;
+    right: 0cm;
+    background-color: rgb(48, 112, 91);
+    color: white;
+    height: 120px;
+}
