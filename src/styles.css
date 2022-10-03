@@ -18,14 +18,14 @@
 
 .card {
 width: 310px;
-height: 250px;
+height: 200px;
 background: white;
 border-radius: 10px;
 text-align: center;
 }
 .img-card{
     width: 290px;
-    height: 170px;
+    height: 160px;
     border-radius: 10px;
 }
 body{
@@ -39,4 +39,7 @@ body{
     background-color: rgb(48, 112, 91);
     color: white;
     height: 120px;
+}
+.cards{
+    overflow-wrap: normal;
 }
