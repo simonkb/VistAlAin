@@ -5,12 +5,7 @@
   .auto-style2 {
     margin-left: auto;
   }
-div.cards{
-    text-align: center;
-    font-family: arial;
-    margin-top: 100px;
-position: relative;
-}
+
 .all-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -26,6 +21,7 @@ width: 310px;
 height: 250px;
 background: white;
 border-radius: 10px;
+text-align: center;
 }
 .img-card{
     width: 290px;
