@@ -82,20 +82,23 @@
         </div>
       </nav>
     </div>
-    <div>
-      <form>
-        <label for="fname">Full Name :</label> 
-        <input type="text" id="fname" name="fname"><br>
+    <div style="margin: 50px; margin-top: 120px !important">
+      <h2 style="text-align: center">Plan for A Trip</h2>
+      <form style="padding: 12px">
+        <label for="fname">Full Name :</label>
+        <input type="text" id="fname" name="fname" /><br />
         <label for="pno">Mobile Number:</label>
-        <input type="number" id="pno" name="pno"><br>
+        <input type="number" id="pno" name="pno" /><br />
         <label for="emailad">Email:</label>
-        <input type="email" id="emailad" name="emailad">
+        <input type="email" id="emailad" name="emailad" />
         <label for="numofcomp">Number of Companions:</label>
-        <input type="text" id="numofcomp" name="numofcomp"><br>
-        <label for="placestovisit">Place to Visit:</label><br>
-        <select name="placestovisit" id="placestovisit" >
+        <input type="text" id="numofcomp" name="numofcomp" /><br />
+        <label for="placestovisit">Place to Visit:</label><br />
+        <select name="placestovisit" id="placestovisit">
           <option value="alaincamelmarket">AL AIN CAMEL MARKET</option>
-          <option value="alainequestrianshooting">AL AIN EQUESTRIAN SHOOTING GOLF</option>
+          <option value="alainequestrianshooting">
+            AL AIN EQUESTRIAN SHOOTING GOLF
+          </option>
           <option value="alainoasis">AL AIN OASIS</option>
           <option value="alainzoo">AL AIN ZOO</option>
           <option value="alqattaraartschannel">AL QATTARA ARTS CENTRE</option>
@@ -107,11 +110,26 @@
           <option value="hilifuncity">HILI FUN CITY</option>
           <option value="jebelhafeet">JEBEL HAFEET</option>
           <option value="mubazzarh">MUBAZZARAH</option>
-        
         </select>
         <br />
-        <button type="submit" value="Submit">Submit</button><br>
-        <button type="reset" value="Reset">CANCEL</button><br>
+        <div style="display: inline">
+          <button
+            style="margin: 10px"
+            class="btn-primary"
+            type="submit"
+            value="Submit"
+          >
+            Send
+          </button>
+          <button
+            style="margin: 10px"
+            class="btn-danger"
+            type="reset"
+            value="Reset"
+          >
+            Cancel
+          </button>
+        </div>
       </form>
       <div
         style="
@@ -125,7 +143,7 @@
           color: black;
         "
       >
-      <h5>Powered by Mulle & Simon &copy; October 2022</h5>
+        <h5>Powered by Mulle & Simon &copy; October 2022</h5>
       </div>
     </div>
   </body>
