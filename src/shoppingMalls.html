@@ -29,6 +29,29 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <style>
+      .all-cards_ {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 16px;
+        grid-gap: 16px;
+        text-align: center;
+        margin-left: 60px !important;
+      }
+
+      .card_ {
+        width: 600px;
+        height: 400px;
+        background: white;
+        border-radius: 10px;
+        text-align: center;
+      }
+      .img-card_ {
+        width: 600px;
+        height: 350px;
+        border-radius: 10px;
+      }
+    </style>
   </head>
   <body>
     <div
@@ -82,8 +105,52 @@
         </div>
       </nav>
     </div>
+
     <div>
-      todo
+      <div>
+        <div
+          class="cards_"
+          style="margin-top: 150px; width: 100%; overflow: scroll"
+        >
+          <h2 style="text-align: center">Shopping Malls in Al Ain</h2>
+          <div class="all-cards_">
+            <a href="https://alainmall.net" target="_blank">
+              <div class="card_">
+                <h3 class="name">Al Ain Mall</h3>
+
+                <img
+                  class="img-card_"
+                  src="../Shopping Malls/Al Ain-Mall.jpg"
+                  alt="Al Ain Mall picture"
+                />
+              </div>
+            </a>
+
+            <a href="http://www.aljimimall.com" target="_blank">
+              <div class="card_">
+                <h3 class="name">Al Jimi Mall</h3>
+                <img
+                  class="img-card_"
+                  src="../Shopping Malls/Al-Jimi-Mall.jpg"
+                  alt="Al Jimi Mall"
+                />
+              </div>
+            </a>
+            <a href="http://www.bawadimall.com" target="_blank">
+              <div class="card_">
+                <h3 class="name">Bawadi Mall</h3>
+
+                <img
+                  class="img-card_"
+                  src="../AL Ain Atractions/AL-JAHILI FORT/1_Al_Jahili_Fort_at_sunset^0.jpg"
+                  alt="AL-JAHILI FORT"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div
         style="
           position: fixed;

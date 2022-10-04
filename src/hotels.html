@@ -29,6 +29,29 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <style>
+      .all-cards_ {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 16px;
+        grid-gap: 16px;
+        text-align: center;
+        margin-left: 60px !important;
+      }
+
+      .card_ {
+        width: 600px;
+        height: 400px;
+        background: white;
+        border-radius: 10px;
+        text-align: center;
+      }
+      .img-card_ {
+        width: 600px;
+        height: 350px;
+        border-radius: 10px;
+      }
+    </style>
   </head>
   <body>
     <div
@@ -83,7 +106,94 @@
       </nav>
     </div>
     <div>
-      todo
+      <div
+        class="cards_"
+        style="margin-top: 150px; width: 100%; overflow: scroll"
+      >
+        <h2 style="text-align: center">Hotels in Al Ain</h2>
+        <div class="all-cards_">
+          <a
+            href="https://reservations.rotana.com/tb3/index.cfm?bf=rotcom&arrivalDate=&departureDate=&city=&country=&hotelCode=HYQAUHAA&adults=0&rooms=0&plprun=2&_=1428782387066"
+            target="_blank"
+          >
+            <div class="card_">
+              <h3 class="name">Al Ain Rotana</h3>
+
+              <img
+                class="img-card_"
+                src="../Hotels/01-Al-Ain-Rotana-Exterior.jpg"
+                alt="Al Ain Rotana"
+              />
+            </div>
+          </a>
+
+          <a
+            href="https://gc.synxis.com/rez.aspx?Hotel=51269&Chain=11893"
+            target="_blank"
+          >
+            <div class="card_">
+              <h3 class="name">Danat Al Ain Resort</h3>
+              <img
+                class="img-card_"
+                src="../Hotels/01-Danat-Al-Ain-Resort-Pool.jpg"
+                alt="Danat Al Ain Resort"
+              />
+            </div>
+          </a>
+          <a
+            href="www.rotana.com/rayhaanhotelandresorts/unitedarabemirates/alain/hilirayhaanbyrotana/accommodation"
+            target="_blank"
+          >
+            <div class="card_">
+              <h3 class="name">Hili Rayhaan by Rotana</h3>
+
+              <img
+                class="img-card_"
+                src="../Hotels/01-2014-Exterior_hili-rayhaan-by-rotana.jpg"
+                alt="Hilli Rayhaan by Rotana"
+              />
+            </div>
+          </a>
+          <a href="www.aylahotels.com" target="_blank">
+            <div class="card_">
+              <h3 class="name">Ayla Hotel</h3>
+
+              <img
+                class="img-card_"
+                src="../Hotels/01-Ayla-Hotel-Exterior.jpg"
+                alt="Ayla Hotel"
+              />
+            </div>
+          </a>
+
+          <a
+            href="www3.hilton.com/en/hotels/uae/hilton-al-ain-AANHITW/index.html"
+            target="_blank"
+          >
+            <div class="card_">
+              <h3 class="name">Hilton Al Ain</h3>
+              <img
+                class="img-card_"
+                src="../Hotels/01-Hilton-Al-Ain-Makani-Garden.jpg"
+                alt="Hilton Al Ain"
+              />
+            </div>
+          </a>
+          <a
+            href="www.mercure.com/gb/hotel-0662-mercure-abu-dhabi-centre-hotel/index.shtml"
+            target="_blank"
+          >
+            <div class="card_">
+              <h3 class="name">Mercure Grand Jebel Hafeet Hotel</h3>
+              <img
+                class="img-card_"
+                src="../Hotels/00-Mercure-Grand-Jebel-Hafeet-Exterior.jpg"
+                alt="Mercure Grand Jebel Hafeet Hotel"
+              />
+            </div>
+          </a>
+        </div>
+      </div>
       <div
         style="
           position: fixed;
